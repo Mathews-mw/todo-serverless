@@ -1,0 +1,22 @@
+{
+  "extends": ["@rocketseat/eslint-config/node"],
+  "rules": {
+    "prettier/prettier": ["error", {
+      "singleQuote": true,
+      "printWidth": 210,
+      "tabWidth": 2,
+      "useTabs": true,
+      "semi": true,
+      "jsxSingleQuote": true,
+      "trailingComma": "es5",
+      "bracketSpacing": true,
+      "arrowFunctionParens": "always",
+      "bracketLine": true
+    }],
+    "no-undef": "off",
+    "camelcase": "off",
+    "no-unused-vars": "off",
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-unused-vars": "warn"
+  }
+}
